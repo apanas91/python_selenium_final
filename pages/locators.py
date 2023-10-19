@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
-class LoginPageLocators():
+class LoginPageLocators:
     LOGIN_FORM = (By.ID, "login_form")
     LOGIN_USERNAME = (By.ID, "id_login-username")
     LOGIN_PASSWORD = (By.ID, "id_login-password")
